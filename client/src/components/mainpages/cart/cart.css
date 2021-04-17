@@ -1,0 +1,76 @@
+.card-cart{
+    margin:10px;
+    padding: 10px;
+    width: 70%;
+    background-color: rgb(143, 143, 143);
+    opacity: .9;    
+    border-radius: 15px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(51, 50, 51);
+    box-shadow: 5px 5px 10px rgb(41, 13, 3);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 160px;
+
+}
+
+.precio-tag{
+    color: rgb(216, 14, 14);
+}
+
+.Total{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(143, 143, 143);
+    opacity: .8;
+
+    border-radius: 10px;
+    border:solid;
+    border-color:rgb(54, 25, 121);
+    border-width: 3px;
+    padding: 10px;
+    color:rgb(216, 14, 14);
+}
+.eliminar{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(228, 72, 72);
+    color:white;
+}
+
+.eliminar:hover {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(175, 55, 55);
+    color:white;
+}
+.pagar{
+    width: 100px;
+    height: 50px;
+    border-radius:10px;
+    background-color: rgb(41, 180, 64);
+    color:white;
+}
+
+.pagar:hover{
+    background-color: rgb(32, 122, 47);
+}
+
+@media only screen and (max-width: 600px) {
+    .total-m{
+        font-size: small;
+    }
+    .card-cart{
+        width: 100%;
+    }
+    .Total{
+        width: 100%;
+    }
+}

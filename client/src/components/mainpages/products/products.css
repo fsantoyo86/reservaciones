@@ -1,0 +1,193 @@
+.ciudades {
+    margin-top: 10px;
+    width:100%;
+    height:100vh;
+    
+    color:white;
+}
+
+.principal-view{
+    margin: 50px auto;
+    max-width: 700px;
+    background-color: gray;
+    opacity: .8;
+    border: 2px solid rgb(54, 25, 121);
+    border-radius: 5px;
+    padding: 30px;
+}
+.principal-view h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(235, 213, 213);
+}
+
+.principal-view button{
+    width: 70px;
+    height: 40px;
+    margin: 10px 0;
+    margin-right: 40px;
+    padding: 0 5px;
+    outline: rgb(54, 25, 121);
+    border: 1px solid rgb(54, 25, 121)
+}
+.row-data{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.row-data input{
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+    padding: 0 5px;
+    outline: rgb(54, 25, 121);
+    border: 1px solid rgb(54, 25, 121)
+}
+.principal-view label{
+    margin-right: 5px;
+}
+.selects{
+    width: 100%;
+    display: flex;
+}
+.select-salida {
+    width: 46%;
+    height: 40px;
+    margin-top:10px;
+    margin-right: 25px;
+    padding: 0 5px;
+    outline:rgb(54, 25, 121);
+    border: 1px solid rgb(54, 25, 121) 
+}
+
+.principal-view .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal-view button{
+    width: 150px;
+    background: rgb(54, 25, 121);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.principal-view button:hover{
+    background: rgb(90, 61, 158);
+    
+}
+
+.principal-view form a{
+    font-weight: bold;
+    color:rgb(212, 88, 66);
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.container-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    color: black;
+    background-color: white;
+}
+
+.card{
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(244, 250, 250);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(41, 13, 3);
+    border:solid;
+    border-color:rgb(54, 25, 121); 
+    border-width: 3px;
+    color:white;
+    width: 200px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container-list h2{
+    color: rgb(41, 13, 3);
+    font-size: 12px;
+}
+.card input{
+    width: 45px;
+    margin-left: 60px;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.confirmar{
+    background-color: white;
+    color:black;
+    padding: 5px 15px;
+}
+
+.mensaje-error{
+    color:white;
+    background-color: red;
+}
+
+.ciudades-lista{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: gray;
+    opacity: .8;
+    padding: 5px 15px;
+    color:white;
+    margin-top: 10px;
+}
+.check-out{
+    display: flex;
+    flex-direction: column;
+}
+.check-out input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 5px;
+    border:solid;
+    border-width: 3px;
+    border-color: rgb(54, 25, 121);
+    outline: rgb(54, 25, 121);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .ciudades{
+        height: auto;
+    }
+    .container-list {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        height: 470px;
+    }
+    .card{
+        width: 300px;
+    }
+
+    .select-salida {
+        width: 100%;
+        height: 40px;
+        margin-top:10px;
+        margin-right: 25px;
+        padding: 0 5px;
+        outline:rgb(54, 25, 121);
+        border: 1px solid rgb(54, 25, 121) 
+    }
+    .card input{
+        margin-left: 110px;
+        width: 35px;
+
+    }
+}
